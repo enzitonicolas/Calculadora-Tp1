@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1503444490 source:d:\enzo\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1503442980 source:d:\enzo\untitled1.c
-	<stdio.h>
-	<stdlib.h>
-
