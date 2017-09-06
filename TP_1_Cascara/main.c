@@ -27,12 +27,12 @@ int main()
             case 1:
                 printf("Ingresa el primer numero:");
                 scanf("%d",&num1);
-                printf("El número ingresado es: %d\n",num1);
+                printf("El nÃºmero ingresado es: %d\n",num1);
                 break;
             case 2:
                 printf("Ingrese el segundo numero:");
                 scanf("%d",&num2);
-                printf("El segundo número ingresado es: %d\n",num2);
+                printf("El segundo nÃºmero ingresado es: %d\n",num2);
                 break;
             case 3:
                 sumar(num1,num2);
@@ -62,6 +62,6 @@ int main()
         }
 
 
-    return 0;
-}
+    
+} return 0;
 }
