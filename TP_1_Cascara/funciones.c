@@ -61,7 +61,7 @@ void calcusumar(int num1,int num2)
     }
     else
     {
-        printf("Cargar los datos");
+        printf("Ingresa el segundo numero nuevamente\n");
     }
 }
 //Verificar resta
@@ -74,7 +74,7 @@ void calcurestar(int num1,int num2)
     }
     else
     {
-        printf("Cargar los datos");
+        printf("Ingresa el segundo numero nuevamente\n");
     }
 }
 //Verificar Division
@@ -87,7 +87,7 @@ void calcudivid(int num1,int num2)
     }
     else
     {
-        printf("Cargar los datos");
+        printf("Ingresa el segundo numero nuevamente\n");
     }
     if(num2==0)
     {
@@ -104,6 +104,6 @@ void calcumultip(int num1,int num2)
     }
     else
     {
-        printf("Cargar los datos");
+        printf("Ingresa el segundo numero nuevamente\n");
     }
 }

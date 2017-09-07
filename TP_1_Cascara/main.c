@@ -19,7 +19,7 @@ int main()
         printf("7- Calcular el factorial (A!)\n");
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n");
-        printf("Ingresa los dos numeros,luego elija una que operacion realizar...Si desea salir presione 9.\n");
+        printf("Ingresa los dos numeros,y luego elija que operacion del 1 al 8 desea realizar...Si desea salir presione 9.\n");
         scanf("%d",&opcion);
 
         switch(opcion)
