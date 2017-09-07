@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
-
 int main()
 {
+    system("COLOR 1F");
     char seguir='s';
     int opcion=0;
     int num1,num2,result;
