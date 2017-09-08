@@ -3,7 +3,7 @@
 #include "funciones.h"
 int main()
 {
-    system("COLOR 1F");
+    system("COLOR 9C");
     char seguir='s';
     int opcion=0;
     int num1,num2,result;
@@ -19,20 +19,22 @@ int main()
         printf("7- Calcular el factorial (A!)\n");
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n");
-        printf("Ingresa los dos numeros,y luego elija que operacion del 1 al 8 desea realizar...Si desea salir presione 9.\n");
+        printf("Elija la opcion (1) y luego la (2) para ingresar los operandos.\n");
+        printf("Luego elija que operacion del (3 al 8) desea realizar.\nSi desea salir presione 9.\n");
         scanf("%d",&opcion);
-
+        system("cls");
         switch(opcion)
         {
             case 1:
-                printf("Ingresa el primer numero:");
+                printf("Ingresa operando A:");
                 scanf("%d",&num1);
-                printf("El numero ingresado es: %d\n",num1);
+                printf("El operando ingresado es: %d\n",num1);
                 break;
             case 2:
-                printf("Ingrese el segundo numero:");
+                printf("Ingrese operando B:");
                 scanf("%d",&num2);
-                printf("El segundo numero ingresado es: %d\n",num2);
+                printf("El operando ingresado es: %d\n",num2);
+                printf("Ya con los operandos elegidos...\nQue operacion del 1 al 3 desea realizar?\nSi quiere corregir algun operando presione la tecla que le corresponde.\n");
                 break;
             case 3:
                 calcusumar(num1,num2);
